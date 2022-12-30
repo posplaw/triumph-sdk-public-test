@@ -1,13 +1,13 @@
 Pod::Spec.new do |spec|
   spec.name           = 'TriumphSDK'
-  spec.version        = '1.8'
+  spec.version        = '1.9'
   spec.homepage       = 'https://triumpharcade.com'
   spec.summary        = 'Summary'
   spec.description    = 'Description'
   spec.license        = { type: 'custom', text: 'None' }
   spec.author         = { 'Alex Oakley' => 'alex@triumpharcade.com' }
   spec.platform       = :ios, '14.0'
-  spec.source       = { :http => "https://cdn.triumpharcade.com/triumph-kit-releases/triumph-sdk-v1-0-2.zip" }
+  spec.source       = { :http => "https://cdn.triumpharcade.com/triumph-kit-releases/triumph-sdk-v1-0-3.zip" }
   spec.static_framework = true
 
 #  spec.dependency 'Firebase/Analytics'
@@ -19,8 +19,8 @@ Pod::Spec.new do |spec|
 #  spec.dependency 'Firebase/Performance'
 #  spec.dependency 'TweeTextField'
 #  spec.dependency 'PhoneNumberKit'
-  spec.dependency 'CropViewController'
-  spec.dependency 'Intercom'
+#  spec.dependency 'CropViewController'
+#  spec.dependency 'Intercom'
 #  spec.dependency 'GEOSwift'
 #  spec.dependency 'CheckoutEventLoggerKit'
 #  spec.dependency 'Frames', '~> 3.0'
