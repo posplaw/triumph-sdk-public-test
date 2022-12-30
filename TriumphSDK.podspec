@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name           = 'TriumphSDK'
-  spec.version        = '1.7'
+  spec.version        = '1.8'
   spec.homepage       = 'https://triumpharcade.com'
   spec.summary        = 'Summary'
   spec.description    = 'Description'
@@ -19,8 +19,8 @@ Pod::Spec.new do |spec|
 #  spec.dependency 'Firebase/Performance'
 #  spec.dependency 'TweeTextField'
 #  spec.dependency 'PhoneNumberKit'
-#  spec.dependency 'CropViewController'
-#  spec.dependency 'Intercom'
+  spec.dependency 'CropViewController'
+  spec.dependency 'Intercom'
 #  spec.dependency 'GEOSwift'
 #  spec.dependency 'CheckoutEventLoggerKit'
 #  spec.dependency 'Frames', '~> 3.0'
