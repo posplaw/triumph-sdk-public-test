@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name           = 'TriumphSDK'
-  spec.version        = '1.0.1'
+  spec.version        = '1.0.2
   spec.homepage       = 'https://triumpharcade.com'
   spec.summary        = 'Summary'
   spec.description    = 'Description'
@@ -11,5 +11,5 @@ Pod::Spec.new do |spec|
   spec.source       = { :http => "https://storage.googleapis.com/triumph-prod.appspot.com/triumph-kit-releases/triumph-sdk-v1-0-0.zip" }
   spec.requires_arc = true
 
-  spec.vendored_frameworks = 'test.xcframework', 'Passbase.xcframework', 'Microblink.xcframework'
+  spec.vendored_frameworks = 'TriumphSDK.xcframework', 'Passbase.xcframework', 'Microblink.xcframework'
 end
