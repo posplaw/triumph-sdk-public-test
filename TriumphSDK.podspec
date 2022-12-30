@@ -1,16 +1,15 @@
-Pod::Spec.new do |s|
-  s.name             = 'TriumphSDK'
-  s.version          = '1.0.0'
-  s.summary          = 'TriumphSDK Public Pod test'
-  s.source           = { :http => "https://storage.googleapis.com/triumph-prod.appspot.com/triumph-kit-releases/triumph-sdk-v1-0-0.zip" }
+Pod::Spec.new do |spec|
+  spec.name           = 'TriumphSDK'
+  spec.version        = '1.0.0'
+  spec.homepage       = 'https://triumpharcade.com'
+  spec.summary        = 'Summary'
+  spec.description    = 'Description'
+  spec.license        = { type: 'custom', text: 'None' }
+  spec.author         = { 'Alex Oakley' => 'alex@triumpharcade.com' }
+  spec.platform       = :ios, '11.0'
+  spec.swift_version  = '5.6'
+  spec.source       = { :http => "https://storage.googleapis.com/triumph-prod.appspot.com/triumph-kit-releases/triumph-sdk-v1-0-0.zip" }
+  spec.requires_arc = true
 
-
-  s.homepage         = 'https://github.com/Alex Oakley/TriumphSDK'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Alex Oakley' => 'alex@triumpharcade.com' }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '14.0'
-  s.vendored_frameworks = 'TriumphSDK.xcframework', 'Microblink.xcframework', 'Passbase.xcframework'
+  spec.vendored_frameworks = 'test.xcframework', 'Passbase.xcframework', 'Microblink.xcframework'
 end
