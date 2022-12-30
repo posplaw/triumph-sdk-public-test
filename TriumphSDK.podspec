@@ -25,7 +25,6 @@ Pod::Spec.new do |spec|
   spec.dependency 'CheckoutEventLoggerKit'
   spec.dependency 'Frames', '~> 3.0'
   spec.dependency 'Kingfisher'
-  spec.dependency 'Passbase', '~> 2.7.0'
   spec.dependency 'lottie-ios'
   spec.dependency 'RecaptchaEnterprise', '~> 18.0.0'
   
