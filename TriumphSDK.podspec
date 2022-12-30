@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name             = 'TriumphSDK'
   s.version          = '1.0.0'
   s.summary          = 'TriumphSDK Public Pod test'
-  s.source           = { :http => "https://storage.googleapis.com/triumph-prod.appspot.com/triumph-kit-releases/TriumphKit-v0.0.19.zip" }
+  s.source           = { :http => "https://storage.googleapis.com/triumph-prod.appspot.com/triumph-kit-releases/triumph-sdk-v1-0-0.zip" }
 
 
   s.homepage         = 'https://github.com/Alex Oakley/TriumphSDK'
