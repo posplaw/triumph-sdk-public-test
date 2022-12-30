@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name           = 'TriumphSDK'
-  spec.version        = '1.0.2'
+  spec.version        = '1.1'
   spec.homepage       = 'https://triumpharcade.com'
   spec.summary        = 'Summary'
   spec.description    = 'Description'
