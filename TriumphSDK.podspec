@@ -1,13 +1,13 @@
 Pod::Spec.new do |spec|
   spec.name           = 'TriumphSDK'
-  spec.version        = '1.9'
+  spec.version        = '1.10'
   spec.homepage       = 'https://triumpharcade.com'
   spec.summary        = 'Summary'
   spec.description    = 'Description'
   spec.license        = { type: 'custom', text: 'None' }
   spec.author         = { 'Alex Oakley' => 'alex@triumpharcade.com' }
   spec.platform       = :ios, '14.0'
-  spec.source       = { :http => "https://cdn.triumpharcade.com/triumph-kit-releases/triumph-sdk-v1-0-3.zip" }
+  spec.source       = { :http => "https://cdn.triumpharcade.com/triumph-kit-releases/triumph-sdk-v1-0-4.zip" }
   spec.static_framework = true
 
 #  spec.dependency 'Firebase/Analytics'
@@ -28,5 +28,5 @@ Pod::Spec.new do |spec|
 #  spec.dependency 'lottie-ios'
 #  spec.dependency 'RecaptchaEnterprise', '~> 18.0.0'
   
-  spec.vendored_frameworks = 'TriumphSDK.xcframework', 'Passbase.xcframework', 'Microblink.xcframework'
+  spec.vendored_frameworks = 'TriumphSDK.xcframework', 'Passbase.xcframework', 'Microblink.xcframework', 'CheckoutEventLoggerKit.xcframework', 'Intercom.xcframework'
 end
