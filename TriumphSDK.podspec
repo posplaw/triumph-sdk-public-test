@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name           = 'TriumphSDK'
-  spec.version        = '1.3'
+  spec.version        = '1.4'
   spec.homepage       = 'https://triumpharcade.com'
   spec.summary        = 'Summary'
   spec.description    = 'Description'
@@ -20,7 +20,6 @@ Pod::Spec.new do |spec|
   spec.dependency 'TweeTextField'
   spec.dependency 'PhoneNumberKit'
   spec.dependency 'CropViewController'
-  spec.dependency 'Intercom'
   spec.dependency 'GEOSwift'
   spec.dependency 'CheckoutEventLoggerKit'
   spec.dependency 'Frames', '~> 3.0'
@@ -28,5 +27,5 @@ Pod::Spec.new do |spec|
   spec.dependency 'lottie-ios'
   spec.dependency 'RecaptchaEnterprise', '~> 18.0.0'
   
-  spec.vendored_frameworks = 'TriumphSDK.xcframework', 'Passbase.xcframework', 'Microblink.xcframework', 'CheckoutEventLoggerKit.xcframework', 'Intercom.xcframework'
+  spec.vendored_frameworks = 'TriumphSDK.xcframework', 'Passbase.xcframework', 'Microblink.xcframework', 'Intercom.xcframework'
 end
