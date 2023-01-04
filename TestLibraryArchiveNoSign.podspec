@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name           = 'TestLibrary'
-  spec.version        = '1.3'
+  spec.version        = '1.4'
   spec.homepage       = 'https://triumpharcade.com'
   spec.summary        = 'Summary'
   spec.description    = 'Description'
