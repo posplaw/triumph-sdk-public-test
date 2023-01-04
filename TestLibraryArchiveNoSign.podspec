@@ -10,8 +10,6 @@ Pod::Spec.new do |spec|
   spec.source       = { :http => "https://cdn.triumpharcade.com/triumph-kit-releases/test-library-archive-nosign.zip" }
   spec.static_framework = true
 
-  
-  spec.dependency 'Intercom'
   spec.dependency 'Kingfisher'
 
   spec.vendored_frameworks = 'LibraryTest.xcframework', 'Intercom.xcframework'
