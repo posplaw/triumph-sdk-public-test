@@ -1,13 +1,13 @@
 Pod::Spec.new do |spec|
   spec.name           = 'TriumphSDK'
-  spec.version        = '1.8'
+  spec.version        = '1.9'
   spec.homepage       = 'https://triumpharcade.com'
   spec.summary        = 'Summary'
   spec.description    = 'Description'
   spec.license        = { type: 'custom', text: 'None' }
   spec.author         = { 'Alex Oakley' => 'alex@triumpharcade.com' }
   spec.platform       = :ios, '14.0'
-  spec.source       = { :http => "https://cdn.triumpharcade.com/triumph-kit-releases/triumphsdk-archive-dynamic.zip" }
+  spec.source       = { :http => "https://cdn.triumpharcade.com/triumph-kit-releases/triumph-dynamic.zip" }
 #  spec.static_framework = true
 
   spec.dependency 'Firebase/Analytics'
