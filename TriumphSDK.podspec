@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name           = 'TriumphSDK'
-  spec.version        = '1.5'
+  spec.version        = '1.6'
   spec.homepage       = 'https://triumpharcade.com'
   spec.summary        = 'Summary'
   spec.description    = 'Description'
@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.author         = { 'Alex Oakley' => 'alex@triumpharcade.com' }
   spec.platform       = :ios, '14.0'
   spec.source       = { :http => "https://cdn.triumpharcade.com/triumph-kit-releases/triumph-sdk-should-be-the-last.zip" }
-  spec.static_framework = true
+#  spec.static_framework = true
 
   spec.dependency 'Firebase/Analytics'
   spec.dependency 'Firebase/Crashlytics'
