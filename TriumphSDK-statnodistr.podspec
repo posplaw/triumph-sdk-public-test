@@ -9,23 +9,6 @@ Pod::Spec.new do |spec|
   spec.platform       = :ios, '14.0'
   spec.source       = { :http => "https://cdn.triumpharcade.com/triumph-kit-releases/triumph-stat-nodistr.zip" }
 #  spec.static_framework = true
-
-  spec.dependency 'Firebase/Analytics'
-  spec.dependency 'Firebase/Crashlytics'
-  spec.dependency 'Firebase/DynamicLinks'
-  spec.dependency 'Firebase/Storage'
-  spec.dependency 'Firebase/Firestore'
-  spec.dependency 'Firebase/Auth'
-  spec.dependency 'Firebase/Performance'
-  spec.dependency 'TweeTextField'
-  spec.dependency 'PhoneNumberKit'
-  spec.dependency 'CropViewController'
-  spec.dependency 'GEOSwift'
-  spec.dependency 'CheckoutEventLoggerKit'
-  spec.dependency 'Frames', '~> 3.0'
-  spec.dependency 'Kingfisher'
-  spec.dependency 'lottie-ios'
-  spec.dependency 'RecaptchaEnterprise', '~> 18.0.0'
   
   spec.vendored_frameworks = 'TriumphSDK.xcframework', 'Passbase.xcframework', 'Microblink.xcframework', 'Intercom.xcframework'
 end
