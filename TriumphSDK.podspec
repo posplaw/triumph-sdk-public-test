@@ -1,17 +1,17 @@
 Pod::Spec.new do |spec|
   spec.name           = 'TriumphSDK'
-  spec.version        = '1.10'
+  spec.version        = '1.14'
   spec.homepage       = 'https://triumpharcade.com'
   spec.summary        = 'Summary'
   spec.description    = 'Description'
   spec.license        = { type: 'custom', text: 'None' }
   spec.author         = { 'Alex Oakley' => 'alex@triumpharcade.com' }
   spec.platform       = :ios, '14.0'
-  spec.source       = { :http => "https://cdn.triumpharcade.com/triumph-kit-releases/triumph-impltest.zip" }
+  spec.source       = { :http => "https://cdn.triumpharcade.com/triumph-kit-releases/triumph-noanalytics.zip" }
 #  spec.static_framework = true
 
   spec.dependency 'Firebase/Analytics'
-  spec.dependency 'Firebase/Crashlytics'
+#  spec.dependency 'Firebase/Crashlytics'
   spec.dependency 'Firebase/DynamicLinks'
   spec.dependency 'Firebase/Storage'
   spec.dependency 'Firebase/Firestore'
