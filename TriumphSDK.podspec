@@ -25,7 +25,6 @@ Pod::Spec.new do |spec|
   spec.dependency 'Frames', '~> 3.0'
   spec.dependency 'Kingfisher'
   spec.dependency 'lottie-ios'
-  spec.dependency 'RecaptchaEnterprise', '~> 18.0.0'
   
-  spec.vendored_frameworks = 'TriumphSDK.xcframework', 'Passbase.xcframework', 'Microblink.xcframework', 'Intercom.xcframework'
+  spec.vendored_frameworks = 'TriumphSDK.xcframework', 'Passbase.xcframework', 'Microblink.xcframework', 'Intercom.xcframework', 'RecaptchaEnterprise.xcframework'
 end
