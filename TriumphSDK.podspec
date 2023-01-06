@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name           = 'TriumphSDK'
-  spec.version        = '1.16'
+  spec.version        = '1.17
   spec.homepage       = 'https://triumpharcade.com'
   spec.summary        = 'Summary'
   spec.description    = 'Description'
@@ -25,6 +25,7 @@ Pod::Spec.new do |spec|
   spec.dependency 'Frames', '~> 3.0'
   spec.dependency 'Kingfisher'
   spec.dependency 'lottie-ios'
+  spec.dependency 'Protobuf', '~> 3.21.3' # Recaptcha dependency
   
   spec.vendored_frameworks = 'TriumphSDK.xcframework', 'Passbase.xcframework', 'Microblink.xcframework', 'Intercom.xcframework', 'RecaptchaEnterprise.xcframework'
 end
